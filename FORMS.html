@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario de Pesquisaa</title>
+</head>
+<body>
+    <form method="post" action="processar-pesquisa.html">
+        <section>
+            <h2> DADOS PESSOAIS</h2>
+            <p>
+                <label for="text">Nome:</label>
+                <input type="text" id="nome"/>
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="e-mail" />
+                <p>
+                    <label form="telefone">Telefone: </label>
+                    <input type="tel"/>
+                </p>
+        </section>
+        <section>
+            <h2>DADOS DE PESQUISA</h2>
+            <p>
+                Numa escala de 1 a 5, indique o nível de atendimento prestado:
+                <input type="radio" id="1" name="nível-atendimento"/>
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nível-atendimento"/>
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nível-atendimento"/>
+                <label for="3">1</label> 
+                <input type="radio" id="4" name="nível-atendimento"/>
+                <label for="4">4</label>
+                 <input type="radio" id="5" name="nível-atendimento"/>
+                <label for="5">5</label> 
+            </p>
+            <p>
+                Numa escacala de 1 a 5, endique o nível de satisfação em relação a resolução do problema:
+                Numa escala de 1 a 5, indique o nível de atendimento prestado:
+                <input type="radio" id="1" name="nível-resolução"/>
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nível-resolução"/>
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nível-resolução"/>
+                <label for="3">1</label> 
+                <input type="radio" id="4" name="nível-resolução"/>
+                <label for="4">4</label>
+                 <input type="radio" id="5" name="nível-resolução"/>
+                <label for="5">5</label> 
+            </p>´
+            <p>
+                <label for="Departamento"> Departamento de atendimento:</label>
+                <select>
+                    <option>Marketing</option>
+                    <option>Financeiro</option>
+                    <option>Comercial</option>
+                    <option>Logistíca</option>
+                    <option>Recursos Humanos</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="Compartilhar-dados" />
+                <labe for="compartilhar-dados">Autorizo compartlhamento de dadps com  terceiros</labe>
+            </p>
+        </section>
+        <input type="submit" value="Enviar" />
+        </form>
+</body>
