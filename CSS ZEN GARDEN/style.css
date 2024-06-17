@@ -1,0 +1,14 @@
+/* Color Theme Swatches in Hex */
+/*
+.destaque { color: #4BB4BF; }
+.background { color: #F2EA79; }
+.UI/UX-3-hex { color: #F2D272; }
+.UI/UX-4-hex { color: #F2E3B3; }
+.principal { color: #0D0D0D; }
+*/
+html{
+    background: #F2EA79 ;
+    color:#0D0D0D;
+}
+
+
