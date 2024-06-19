@@ -167,7 +167,7 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
 }
 #design-selection {
     position: absolute;
-    top:520px;
+    top: 480px;0px;
    left: 62%;
    padding-left: 1%;
    padding-right: 1%;
@@ -228,9 +228,43 @@ Na atividade deste capítulo iremos aprimorar o layout de nossa página utilizan
 .participation h3 {
     align-self: center;
 }
+/*
+1. Customize a aparência dos links da seguinte forma: 
 
+- Por padrão, devem ter a cor de destaque e estarem em negrito.
 
+- Se sobrepostos, devem ter sua cor alterada para uma tonalidade mais clara/escura. Os links visitados não devem ficar mais em negrito.
 
+2. Vamos dar um destaque a primeira letra do primeiro parágrafo da seção principal. Você deverá customizá-lo para que:
 
+- Tenha tamanho de fonte 3 vezes maior que o padrão.
 
+- Seja de uma fonte diferente da escolhida para o  site.
+
+- Fique flutuando a esquerda.
+
+OBS: você precisará aplicar mais de um pseudo seletor para realizar essa estilização. Fique atento!
+
+3. Utilize bordas para criar um separador entre os itens presentes no menu de design. Aplique uma borda superior no topo de todos os itens de menu. Aplique uma borda inferior apenas no último item da lista
+
+*/
+a {
+    color: #4bb3bf 
+}
+a:hover {
+    color:  #4bb3bf6c; 
+}
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+   font-family: 'times New roman', times, serif;
+   float: left
+}
+.design-selection li {
+    border-top: #4bb3bf solid 1px;
+    padding-bottom: 5px;
+}
+.design-selection li: :last-of-type{
+      border-bottom: #4bb3bf solid 1 px; 
+      padding bottom: 5px;
+}
 
